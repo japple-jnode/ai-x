@@ -1,0 +1,29 @@
+{
+  "name": "ai-x",
+  "version": "1.0.0",
+  "description": "Powerful AI API package for Node.js.",
+  "keywords": [
+    "ai",
+    "llm",
+    "api",
+    "jnode"
+  ],
+  "homepage": "https://github.com/japple-jnode/ai-x#readme",
+  "bugs": {
+    "url": "https://github.com/japple-jnode/ai-x/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/japple-jnode/ai-x.git"
+  },
+  "license": "MIT",
+  "author": "JustApple",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.mjs",
+    "./lm": "./src/lm/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Hello, AI X.\""
+  }
+}
