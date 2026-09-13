@@ -1,6 +1,6 @@
 // ----------------------------------------
 //
-//  @jnode/ai-x /protocol.js
+//  @jnode/ai-x /lm/protocol.js
 //
 //    Powerful AI API package for Node.js.
 //
