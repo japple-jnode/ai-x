@@ -20,8 +20,7 @@
   "author": "JustApple",
   "type": "module",
   "exports": {
-    ".": "./src/index.mjs",
-    "./lm": "./src/lm/index.js"
+    ".": "./src/index.js"
   },
   "scripts": {
     "test": "echo \"Hello, AI X.\""

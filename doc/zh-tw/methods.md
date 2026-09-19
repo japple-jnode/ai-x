@@ -30,7 +30,7 @@
 
 ```js
 {
-   "type": "interactive" | "media" | String, // 模型種類，在 AIX LM 環境下只會顯示 `interactive` 模型
+   "type": "interactive" | "media" | String, // 模型種類，在 AIX 環境下只會顯示 `interactive` 模型
 }
 ```
 

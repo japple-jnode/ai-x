@@ -1,6 +1,6 @@
 // ----------------------------------------
 //
-//  @jnode/ai-x /lm/method.js
+//  @jnode/ai-x /method.js
 //
 //    Powerful AI API package for Node.js.
 //
@@ -9,7 +9,7 @@
 // ----------------------------------------
 
 // base class for a method
-class LMMethod {
+class AIXMethod {
     static name = 'Method';
     static description = 'A method for language models.';
     static aixMethod = 'method'; // AIX standard method name
@@ -34,7 +34,7 @@ class LMMethod {
         return response; // return directly as placeholder here, change it!
     }
 
-    // excutes the method, arguments can be changed since LMMethod is recommend to call internally, returns response
+    // excutes the method, arguments can be changed since AIXMethod is recommend to call internally, returns response
     static execute(body, context) {
         const response = { status: 200, body, context }; // just an example
         return response;

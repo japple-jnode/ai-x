@@ -1,6 +1,6 @@
 // ----------------------------------------
 //
-//  @jnode/ai-x /lm/service.js
+//  @jnode/ai-x /service.js
 //
 //    Powerful AI API package for Node.js.
 //
@@ -8,12 +8,12 @@
 //
 // ----------------------------------------
 
-// base language model service (API/provider)
-class LMService {
+// base AI service (API/provider)
+class AIXService {
     constructor(options = {}) {
         this.baseUrl = options.baseUrl;
     }
 
-    // internal LMMethod of this service
+    // internal AIXMethod of this service
     methods = {};
 }
