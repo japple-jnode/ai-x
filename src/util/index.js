@@ -10,3 +10,4 @@
 
 // exports
 export * from './command.js';
+export * from './typestring.js';

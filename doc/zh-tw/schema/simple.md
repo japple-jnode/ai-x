@@ -40,3 +40,7 @@ Simple Schema 的核心形式源自 JSON 與 JavaScript，為了方便理解，�
 Simple Schema 並沒有正式的形式規定，我們的最高指導原則為「開發者與模型皆能輕鬆閱讀與撰寫」，您可以自由使用您偏好的縮排。
 
 Simple Schema 並不具備程式化格式校驗的功能，也不建議被程式邏輯解析，但我們提供了 JSON Schema 到 Simple Schema 轉換的工具。
+
+## 格式規範
+
+- 類型表示為 `null` 時，預設情況也涵蓋 `undefined`（不存在資料）。
